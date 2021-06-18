@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="mole.css">
+  <title>Whack a Mole!</title>
+</head>
+
+<body>
+  <h1 id="title">Whack-a-mole!</h1><span class="score">0</span>
+  <button onClick="startGame()">Start!</button>
+
+  <div class="game">
+    <div class="hole hole1">
+      <div class="mole"></div>
+    </div>
+
+    <div class="hole hole2">
+      <div class="mole"></div>
+    </div>
+
+    <div class="hole hole3">
+      <div class="mole"></div>
+    </div>
+
+    <div class="hole hole4">
+      <div class="mole"></div>
+    </div>
+
+    <div class="hole hole5">
+      <div class="mole"></div>
+    </div>
+
+    <div class="hole hole6">
+      <div class="mole"></div>
+    </div>
+
+    <div class="hole hole7">
+      <div class="mole"></div>
+    </div>
+
+    <div class="hole hole8">
+      <div class="mole"></div>
+    </div>
+    <!-- <div class="hole hole7">
+      <div class="mole"></div>
+    </div>
+
+    <div class="hole hole8">
+      <div class="mole"></div>
+    </div> -->
+  </div>
+  <audio autoplay id="bg-audio">
+    <source src="NC New Beat 135 - Ace Collab.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="game-audio">
+    <source src="Initial D - Running in The 90s.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="bonk">
+    <source src="bonk.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="winner-sound">
+    <source src="anime-wow-sound-effect-mp3cut.mp3" type="audio/mpeg">
+  </audio>
+  <video id="winner-vid">
+    <source src="M Bison Yes Yes Widescreen HD reupload.mp4" type="video/mp4">
+  </video>
+  <video id="loser-vid">
+    <source src="rick_astley-singing_dame_da_ne.mp4" type="video/mp4">
+  </video>
+  <script src="mole.js"></script>
+</body>
+
+</html>
