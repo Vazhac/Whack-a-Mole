@@ -8,7 +8,7 @@ let timeUp = false;
 let score = 0;
 let title = document.getElementById("title")
 let gameTime = 35; //seconds
-let winCon = 100;
+let winCon = 10;
 
 let menuAudio = document.getElementById("bg-audio");
 let gameAudio = document.getElementById("game-audio");
